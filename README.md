@@ -1,6 +1,6 @@
 # GraphQL Server with Apollo
 
-This GraphQL server, developed using Apollo, is specifically designed for learning purposes and provides a simple and efficient way to manage books. With this server, you can perform various operations such as fetching existing books, adding new books, and removing existing books.
+This GraphQL server, developed using Apollo and Node JS, is specifically designed for learning purposes and provides a simple and efficient way to manage books. With this server, you can perform various operations such as fetching existing books, adding new books, and removing existing books.
 The main goal is to understand the fundamentals of GraphQL implementation with Apollo.
 
 The server is built on the Apollo framework, which is a popular choice for creating GraphQL servers due to its excellent tooling and developer-friendly features. 
@@ -21,4 +21,4 @@ Similarly, removing a book involves sending a mutation request **removeBook** wi
 
 
 ## Starting a server locally
-- node app.js / nodemon app.js
+- node app.js / nodemon app.js (https://nodemon.io)
