@@ -20,5 +20,6 @@ Adding a new book is straightforward. You can send a mutation request **addBook*
 Similarly, removing a book involves sending a mutation request **removeBook** with the book's unique identifier. The server will identify the book based on the provided identifier, remove it from the database, and return the deleted book.
 
 
-## Starting a server locally
+## Steps
+- node install
 - node app.js / nodemon app.js (https://nodemon.io)
