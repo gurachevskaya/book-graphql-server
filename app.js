@@ -56,10 +56,17 @@ const resolvers = {
     }
 }
 
-const server = new ApolloServer({typeDefs, resolvers})
+const server = new ApolloServer({
+  typeDefs, 
+  resolvers,
+  introspection: true, 
+  playground: true 
+})
+
+const PORT = process.env.PORT || 8080
 
 server
-.listen()
+.listen(PORT)
 .then(({url}) => {
     console.log(`Server is running at ${url}`)
 })
